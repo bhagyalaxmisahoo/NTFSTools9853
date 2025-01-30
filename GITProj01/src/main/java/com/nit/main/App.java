@@ -1,17 +1,17 @@
 package com.nit.main;
 
-/**
- * Hello world!
- */
 public class App {
-	
-	
+
 	public int sum(int x,int y)
 	{
 		return x+y;
 	}
     public static void main(String[] args) {
         App app=new App();
-        System.out.println("Sum  is::"+app.sum(10,20));
-    }
+
+    System.out.println("sum result22 is22 ::"+app.sum(10, 20));
+    System.out.println("sum amount33  is44::"+app.sum(10, 20));
+      //hello how are u 
+  System.out.println("sum amount55   is::"+app.sum(10, 20));
+      }
 }
