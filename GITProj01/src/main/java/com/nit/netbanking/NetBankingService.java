@@ -17,4 +17,9 @@ public class NetBankingService
 	{
 		return amount+" deposited into the account number::"+acno;
 	}
+	
+	public String closdeAccount()
+	{
+		return "Account is closed";
+	}
 }
