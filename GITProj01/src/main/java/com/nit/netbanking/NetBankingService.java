@@ -31,6 +31,6 @@ public class NetBankingService
 	
 	public double checkBalance()
 	{
-		
+		return new Random().nextLong(1000000000);
 	}
 }
