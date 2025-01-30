@@ -18,8 +18,14 @@ public class NetBankingService
 		return amount+" deposited into the account number::"+acno;
 	}
 	
+
 	public String closdeAccount()
 	{
 		return "Account is closed";
+	}
+	public String transferMoney(long srcAcno,long destAcno,double amount)
+	{
+		return "transfering"+amount +" from "+srcAcno+ "to "+ destAcno;
+
 	}
 }
